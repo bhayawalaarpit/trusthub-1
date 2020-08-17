@@ -83,7 +83,8 @@
                 :icon="item.icon" :target="item.target"
                 :isDisabled="item.isDisabled"
                 :slug="item.slug">
-                  <img :src="getImagepath(item.icon_url)" alt="123">
+                  <!-- <img v-bind:src="require( `src/assets/images/sidebar_icon/${item.icon_url}`)" alt="123"> -->
+                  <img v-bind:src="getImagepath(item.icon_url)" alt="123">
                   <span v-show="!verticalNavMenuItemsMin" class="truncate">{{ $t(item.i18n) || item.name }}</span>
                   <vs-chip class="ml-auto" :color="item.tagColor" v-if="item.tag && (isMouseEnter || !reduce)">{{ item.tag }}</vs-chip>
               </v-nav-menu-item>
@@ -214,7 +215,9 @@ export default {
   },
   methods: {
     getImagepath(image){
-      return 'src/assets/images/sidebar_icon/' + image
+      const path = 'src/assets/images/sidebar_icon/' + image;
+      console.log('Image Path =>', path);
+      return path
     },
 
     onMenuSwipe (event) {
