@@ -1,0 +1,76 @@
+{
+  "Documents": [
+    {
+      "id" : "1",
+      "title":"My Files",
+      "author": "AB",
+      "sub-Files": [
+        {
+          "id": 1,
+          "title": "File-1",
+          "author": "ABC",
+          "sub-Files": [
+            {
+              "id": 1,
+              "title": "File-1.1",
+              "author": "ABC",
+              "sub-Files": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "File-2",
+          "author": "ABC",
+          "sub-Files": [
+            {
+              "id": 1,
+              "title": "File-2.1",
+              "author": "ABC",
+              "sub-Files": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "2",
+      "title":"My Pictures",
+      "author": "AB",
+      "sub-Files": [
+        {
+          "id": 1,
+          "title": "Pictures-1",
+          "author": "ABC",
+          "sub-Files": []
+        }
+      ]
+    },
+    {
+      "id" : "3",
+      "title":"Downloads",
+      "author": "AB",
+      "sub-Files": [
+        {
+          "id": 1,
+          "title": "File1",
+          "author": "ABC",
+          "sub-Files": []
+        }
+      ]
+    },
+    {
+      "id" : "4",
+      "title":"MY Documents",
+      "author": "AB",
+      "sub-Files": [
+        {
+          "id": 1,
+          "title": "File1",
+          "author": "ABC",
+          "sub-Files": []
+        }
+      ]
+    }
+  ]
+}
