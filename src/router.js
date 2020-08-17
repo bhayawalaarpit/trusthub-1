@@ -104,14 +104,14 @@ const router = new Router({
             rule: 'editor'
           }
         },
-        {
-          path: '/dashboard/analytics',
-          name: 'dashboard-analytics',
-          component: () => import('./views/DashboardAnalytics.vue'),
-          meta: {
-            rule: 'editor'
-          }
-        },
+        // {
+        //   path: '/dashboard/analytics',
+        //   name: 'dashboard-analytics',
+        //   component: () => import('./views/DashboardAnalytics.vue'),
+        //   meta: {
+        //     rule: 'editor'
+        //   }
+        // },
         // {
         //   path: '/dashboard/ecommerce',
         //   name: 'dashboard-ecommerce',
